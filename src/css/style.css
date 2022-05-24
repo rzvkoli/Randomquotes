@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,200;0,300;1,100&family=Nunito&family=Poppins:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,100;1,100&family=Zen+Kaku+Gothic+New&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    height: 100%;
+    background-color: #0e9594;
+    color: 127475;
+    font-size: 2.25vw;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .conainer{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 5vw;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  h5{
+    margin-top: 2.5em;
+  }
+
+  @media only screen and (max-width:600px) {
+    body{
+      font-size: 6vw;
+    }
+  }
